@@ -1,0 +1,116 @@
+/* Mobile styles */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .rectangle-bleu {
+        height: 7vh;
+    }
+
+    .menu-toggle {
+        width: 7vh;
+    }
+
+    .dropdown-menu {
+        top: 7vh;
+        left: 31vw;
+        width: auto;
+        padding: 0;
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: 3vh;
+        font-family: "Sansita";
+        color:#F5B82E;
+        padding: 8px;
+    }
+    .menu {
+        color:#F5B82E;
+        font-family:Sansita;
+        font-size:100%;
+        text-align:center;
+    }
+
+    .Home{
+        position: fixed;
+        top: 1vh;
+        left: 1vw; /* Utilisation de vw pour plus de flexibilité */
+        width:8vw;
+        height: 5vh;
+    }
+    
+    .lune {
+        position: fixed;
+        top: 1vh;
+        left: 13vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height: 5vh;
+    }
+    
+    .Galerie {
+        position: fixed;
+        top: 0.2vh;
+        left: 30vw; /* Ajusté pour mieux s'adapter */
+        width:16vw;
+        height:8vh;
+    }
+    
+    .About {
+        position: fixed;
+        top: 0.2vh;
+        left: 55vw; /* Ajusté pour mieux s'adapter */
+        width:18vw;
+        height:8vh;
+    }
+    
+    .insta {
+        position: fixed;
+        top: 1.5vh;
+        left: 80vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height: 5vh;
+    }
+    
+    .linkedin {
+        position: fixed;
+        top: 1.5vh;
+        left: 90vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height: 5vh;
+    }
+
+    h2 {
+        font-size: 5vh;
+        
+    }
+
+    p {
+        font-size: 1vh;
+        margin: 2vh 0;
+        padding: 0 1vh;
+        text-align: center;
+    }
+
+    .moi {
+        width: 100vh;
+    }
+
+    .info-about {
+        font-family:"Sansita";
+        font-size:3vH;
+        text-align:center;
+     }
+     .info-lieu {
+        font-family:"Sansita";
+        font-size:3vH;
+        text-align:left;
+     }
+
+    .gallery img {
+        width: 100%; /* Largeur des images pour les très petits écrans */
+    }
+    
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilian Sauloup - A propos</title>
+    <link rel="icon" href="image/logo/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="police.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sansita+One" />
+    
+
+</head>
+
+<body>
+    <header>
+    
+<div class="rectangle-bleu"></div>
+        <nav>
+            <ul>
+                <a href="index.html"> 
+                    <img src="image/logo/Home.svg" alt="logo maison" class="Home">
+                </a>
+                    <img src="image\logo\Galerie.svg" alt="galerie" class="menu-toggle Galerie">
+                    
+                    <div class="dropdown-menu">
+                        <a href="photo1.html" > <p class="menu">Photo</p></a>
+                        <a href="dessin1.html" > <p class="menu">Dessin</p></a>
+                    </div>
+                    
+                <a href="about.html">
+                    <img src="image\logo\À propos.svg" alt="à propos" class="About">
+                </a>
+                <a href="https://www.instagram.com/lilian_s94" target="_blank">
+                    <img src="image/logo/Instagram.svg" alt="logo instagram" class="insta">
+                </a>
+                <a href="https://fr.linkedin.com/in/lilian-sauloup-47181b272" target="_blank">
+                    <img src="image/logo/Linkedin.svg" alt="logo linkedin" class="linkedin">
+                </a>
+                <img src="image/logo/Moon.svg" alt="Activer le mode nuit" id="toggle-night-mode" class="lune" >
+                
+
+            </ul>
+        </nav>
+</header>
+
+    <main>
+        <h2 id="page-title"><u>Dessin</u></h2>
+       
+        
+        <div><p class="info-about"> <b>Majoritairement quand je m'ennuie |<i> 2022-2024</i></b>
+        </p>
+        </div>
+        <div class="gallery">
+            <img src="image\dessin\reste\anaelle portrait.jpg" alt="portrait anaelle" onclick="showImage(this)">
+            <img src="image\dessin\reste\extincteur2.jpg" alt="extincteur" onclick="showImage(this)">
+            <img src="image\dessin\reste\ville.jpg" alt="ville" onclick="showImage(this)">
+            <img src="image\dessin\reste\monstremalls.jpg" alt="monstre 1" onclick="showImage(this)">
+            <img src="image\dessin\reste\monqtrecaro1.jpg" alt="monstre 2" onclick="showImage(this)">
+            <img src="image\dessin\reste\champignons.jpg" alt="champignon" onclick="showImage(this)">
+            <img src="image\dessin\reste\vase.jpg" alt="vase" onclick="showImage(this)">
+            <img src="image\dessin\reste\donuts.jpg" alt="donuts" onclick="showImage(this)">
+        </div>
+
+        <div id="imageOverlay" class="image-overlay" onclick="hideImage()">
+            <img src="" alt="Agrandissement de l'image">
+        </div>
+
+        <div><p class="info-about"> <br>Le reste arrive... normalement...
+        </p>
+        </div>
+        
+        <a href="#page-title">
+            <img src="image\logo\Arrow_jaune.svg" alt="Retour en haut" style="transform: rotate(-90deg);" class="back-to-top">
+        </a>
+        <div class="arrow-container">
+    
+        <a href="dessin2.html">
+            <img src="image\logo\Arrow_jaune_gauche.svg" alt="Page précédente" class="arrow" >
+        </a>
+        </div>
+    </main>
+
+    <footer>
+        <p style="font-family:Sansita;text-align:center;"><i><br>&copy; 2024 Lilian Sauloup</i></p>
+   </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>

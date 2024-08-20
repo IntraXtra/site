@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilian Sauloup - A propos</title>
+    <link rel="icon" href="image/logo/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="police.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sansita+One" />
+    
+
+</head>
+
+<body>
+    <header>
+    
+<div class="rectangle-bleu"></div>
+        <nav>
+            <ul>
+                <a href="index.html"> 
+                    <img src="image/logo/Home.svg" alt="logo maison" class="Home">
+                </a>
+                    <img src="image\logo\Galerie.svg" alt="galerie" class="menu-toggle Galerie">
+                    
+                    <div class="dropdown-menu">
+                        <a href="photo1.html" > <p class="menu">Photo</p></a>
+                        <a href="dessin1.html" > <p class="menu">Dessin</p></a>
+                    </div>
+                    
+                <a href="about.html">
+                    <img src="image\logo\À propos.svg" alt="à propos" class="About">
+                </a>
+                <a href="https://www.instagram.com/lilian_s94" target="_blank">
+                    <img src="image/logo/Instagram.svg" alt="logo instagram" class="insta">
+                </a>
+                <a href="https://fr.linkedin.com/in/lilian-sauloup-47181b272" target="_blank">
+                    <img src="image/logo/Linkedin.svg" alt="logo linkedin" class="linkedin">
+                </a>
+                <img src="image/logo/Moon.svg" alt="Activer le mode nuit" id="toggle-night-mode" class="lune" >
+                
+
+            </ul>
+        </nav>
+</header>
+
+    <main>
+        <h2 id="page-title"><u>Dessin</u></h2>
+       
+        
+        <div><p class="info-about"> <b>Décors du jeu BZPTG |<i> 2022</i></b>
+        </p>
+        </div>
+        <div class="gallery">
+            <img src="image\dessin\jeu\BZPTG\Chambre_avec_camera.jpg" alt="chambre" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\bus207.jpg" alt="bus" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\garage.jpg" alt="garage" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\cave.jpg" alt="cave" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\mairie.jpg" alt="arret de bus" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\Voturefin.jpg" alt="voiture" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\hdvlqb.jpg" alt="mairie" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\Hall14.jpg" alt="hall" onclick="showImage(this)">
+           
+        </div>
+
+        <div><p class="info-about"> <b>Décors du jeu d'Anaelle |<i> 2022</i></b>
+        </p>
+        </div>
+        <div class="gallery">
+            <img src="image\dessin\jeu\Ana\emba.jpg" alt="embarquation" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\classe1.jpg" alt="classe 1" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\classeEco.jpg" alt="classe eco" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\couloir1.jpg" alt="couloir 1" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\trappe.jpg" alt="une trappe" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\bar.jpg" alt="bar" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\pilotage.jpg" alt="cockpit" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\sallederepostest.jpg" alt="salle de repos" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\toilette.jpg" alt="toilette" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\couloir2.jpg" alt="couloir 2" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\souteavecbombz.jpg" alt="soute avec bombe" onclick="showImage(this)">
+            
+           
+        </div>
+        <div id="imageOverlay" class="image-overlay" onclick="hideImage()">
+            <img src="" alt="Agrandissement de l'image">
+        </div>
+
+        <a href="#page-title">
+            <img src="image\logo\Arrow_jaune.svg" alt="Retour en haut" style="transform: rotate(-90deg);" class="back-to-top">
+        </a>
+        <div class="arrow-container">
+    
+        <a href="dessin1.html">
+            <img src="image\logo\Arrow_jaune_gauche.svg" alt="Page précédente" class="arrow" >
+        </a>
+        <a href="dessin3.html">
+            <img src="image\logo\Arrow_jaune.svg" alt="Page suivante" class="arrow">
+        </a>
+        </div>
+    </main>
+
+    <footer>
+        <p style="font-family:Sansita;text-align:center;"><i><br>&copy; 2024 Lilian Sauloup</i></p>
+   </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>
